@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  overflow-x: hidden;
+  background-color: #181824;
+}
+
+input {
+  border: none;
+  outline: 0;
+}
+
+input:focus {
+  box-shadow: 0 0 0 0;
+  border: 0 none;
+  outline: 0;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+}
+
+.header {
+  width: 100%;
+  height: 30%;
+  background: linear-gradient(28.37deg, #ffaf7b 5.46%, #d76d77 88.98%);
+}
+
+.main {
+  width: 100%;
+  height: fit-content;
+
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+.container_tarefas {
+  position: relative;
+  top: -5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+  gap: 1rem;
+}
+
+.container_tarefas input {
+  width: 100%;
+  padding: 1rem 2rem;
+  box-shadow: 12px 15px 15px rgba(0, 0, 0, 0.4);
+  background: #25273c;
+  font-size: 18px;
+  color: #fff;
+}
+
+.container_tarefas input:hover {
+  transform: scale(1.01);
+}
+
+.container_tarefas .tarefas {
+  width: 100%;
+}
+
+.filtros {
+  width: 100%;
+  padding: 1rem 2rem;
+  box-shadow: 12px 15px 15px rgba(0, 0, 0, 0.4);
+  background: #25273c;
+  font-size: 12px;
+  border-bottom: #33354a 1px solid;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+}
+
+.opcao {
+  cursor: pointer;
+}
