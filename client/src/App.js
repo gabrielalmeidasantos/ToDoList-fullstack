@@ -79,7 +79,7 @@ function App() {
                 listar();
               }}
             >
-              todas
+              Todas
             </span>
             <span
               className={styles.opcao}
@@ -87,7 +87,7 @@ function App() {
                 listar("true");
               }}
             >
-              completas
+              Completas
             </span>
             <span
               className={styles.opcao}
@@ -95,7 +95,7 @@ function App() {
                 listar("false");
               }}
             >
-              incompletas
+              Incompletas
             </span>
           </div>
         </form>

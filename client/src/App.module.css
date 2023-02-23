@@ -51,7 +51,7 @@ input:focus {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 40%;
+  width: 50%;
   gap: 1rem;
 }
 
@@ -82,8 +82,37 @@ input:focus {
   color: #fff;
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .opcao {
   cursor: pointer;
+}
+
+@media (min-width: 800px) {
+  .container_tarefas {
+    width: 60vw;
+  }
+}
+
+@media (max-width: 800px) {
+  .container_tarefas {
+    width: 70%;
+  }
+}
+
+@media (max-width: 600px) {
+  .container_tarefas {
+    width: 80%;
+  }
+
+  .container_tarefas .tarefas {
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .container_tarefas {
+    width: 95%;
+  }
 }
